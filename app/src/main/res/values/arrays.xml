@@ -204,4 +204,20 @@
         <item>Region 2</item>
         <!-- Add more regions here -->
     </string-array>
+
+    <string-array name="areas">
+        <item>Technology</item>
+        <item>Retail and E-commerce</item>
+        <item>Healthcare and Wellness</item>
+        <item>Professional Services</item>
+        <item>Education and E-learning</item>
+        <item>Hospitality and Tourism</item>
+        <item>Finance and Fintech</item>
+        <item>Manufacturing and Production</item>
+        <item>Real Estate and Construction</item>
+        <item>Social Impact and Nonprofits</item>
+        <item>Art and Creative Industries</item>
+        <item>Food and Beverage</item>
+        <!-- Add other areas here -->
+    </string-array>
 </resources>
