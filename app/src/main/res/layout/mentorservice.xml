@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/card"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+
+    
+    android:background="@drawable/schedulecard">
+
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+
+            <LinearLayout
+
+                android:id="@+id/cust_name_linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_toRightOf="@+id/imageview"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/med_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mock Interviews -B - Schools specific"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    ></TextView>
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:background="@drawable/schedulecard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/videocall"/>
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/ownername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1 : 1 Call"
+                        android:textColor="#008000"
+                        android:textSize="13sp"
+                        ></TextView>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_watch_later_24"/>
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="30 Min"
+                        android:textColor="#008000"
+                        android:textSize="13sp"
+                        ></TextView>
+
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingEnd="20dp"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RS 50"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        />
+
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:text="Book Now"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:background="@drawable/button_round_bg"
+                    android:layout_height="wrap_content">
+
+
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
